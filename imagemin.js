@@ -47,6 +47,6 @@ const convertJPGToWebp = () =>
 
 optimiseJPEGImages()
   .then(() => optimisePNGImages())
-  .then(() => convertPNGToWebp())
-  .then(() => convertJPGToWebp())
+  // .then(() => convertPNGToWebp())
+  // .then(() => convertJPGToWebp())
   .catch(error => console.log(error));
